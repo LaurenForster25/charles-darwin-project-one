@@ -58,6 +58,7 @@ Footer
 
 Testing
  - While I have run rigarous testing through my vscode I have not been able to access the Valdiator Testing sites provided by Code Institute. The sites do not accept my url.
+ - Here is my deployed site: https://laurenforster25.github.io/charles-darwin-project-one/
 
 Fixing Bugs
   -The first bug I fixed was connecting my CSS in the HTML file. I had not included the entire file path to the style.css folder and that had prevented my file from connecting.
