@@ -7,7 +7,11 @@
 
 /*General Styles*/
 
-header {background-color:white;
+header {background-color:rgb(117, 160, 193);
+   border-width:3px;
+   border-style:double;
+   border-color:midnightblue;
+   margin:10px
 }
 
 header {color:black;
@@ -17,10 +21,15 @@ header {color:black;
 
 #navigation {color:midnightblue;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-align:justify;
+text-align:center;
 }
 
 #main-body {background-color:rgb(117, 160, 193)}
+
+
+#first {border-width:3px;
+   border-style:double;
+   border-color:midnightblue}
 
 
 
