@@ -10,7 +10,7 @@
 header {background-color:white;
 }
 
-header p{color:black;
+header {color:black;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-align:center
 }
@@ -21,18 +21,6 @@ text-align:justify;
 }
 
 #main-body {background-color:rgb(117, 160, 193)}
-
-
-
-footer {background-color: black;
-
-}
-
-footer p{color:white}
-
-body {background-color: rgb(118, 195, 195);
-
-}
 
 
 
@@ -52,6 +40,11 @@ h3 {
    border-color:midnightblue
 }
 
+footer {background-color: black;
+
+}
+
+footer p{color:white}
 
 /*padding*/
 /*font-align*/
