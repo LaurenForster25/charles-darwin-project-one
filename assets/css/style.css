@@ -39,7 +39,8 @@ h3 {
 
 h3 {color:black;
     font-family:'sans-serif', 'Times New Roman';
-    font-size:large
+    font-size:large;
+    text-align:center;
 }
 
 p {color:black;
@@ -67,14 +68,43 @@ max-width: 100%;
 height:auto;
 }
 
-
-
-
-footer {background-color: black;
-
+#voyage {max-width: 50%;
+height:auto;
 }
 
-footer p{color:white}
+#beagle {background-color: white;
+   padding:10px;
+}
+
+#further-links {background-color:rgb(117, 160, 193);
+   margin:0px;
+   /*border-width:3px;
+   border-style:double;
+   border-color:midnightblue;
+   margin:0px}*/
+}
+
+#extras {background-color:rgb(117, 160, 193);
+   border-width:3px;
+   border-style:double;
+   border-color:midnightblue;
+   margin:10px;
+padding:10px;
+}
+
+#research-suggestions {background-color: white;
+   margin:0px;
+padding:0px;
+text-align:center;
+
+}
+ #fieldset {background-color: white;}
+
+
+#footer {position: sticky;
+   bottom: 0;
+}
+
 
 /*padding*/
 /*font-align*/
