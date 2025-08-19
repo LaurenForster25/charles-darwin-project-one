@@ -46,7 +46,8 @@ p {color:black;
    font-family:'sans-serif', 'Times New Roman';
    font: size 80%;
    background-color:white;
-   text-align:center
+   text-align:left;
+   padding:10px;
 }
 
 #video {background-color: white;
@@ -55,8 +56,18 @@ background-position:center;
 
 iframe {display:block;
 margin:0 auto;
-padding: 5px;
+padding: 10px;
 }
+
+img {display:block;
+margin:0 auto;
+padding:10px;
+background-color:white;
+max-width: 100%;
+height:auto;
+}
+
+
 
 
 footer {background-color: black;
