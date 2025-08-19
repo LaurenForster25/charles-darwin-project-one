@@ -52,5 +52,25 @@ Newsletter
 Footer
    - The footer contains a Copyright note. As this is a historical website and not a wesbite encourgaing the use of a product, I have not included social media links.
 
+##Features to Implement 
+  -  It would be a good idea to include another page where users can have a brief introduction to what the Newsletter looks like as well as the information on there.
+  -  Background image would make the site look more professional
 
+Testing
+ - While I have run rigarous testing through my vscode I have not been able to access the Valdiator Testing sites provided by Code Institute. The sites do not accept my url.
+
+Fixing Bugs
+  -The first bug I fixed was connecting my CSS in the HTML file. I had not included the entire file path to the style.css folder and that had prevented my file from connecting.
+  -The next vital bug that occured in my code was when I used the video element. I could not get the code to work and I came to the conlusion that youtube itself would not load in the browser. In the end I used an iframe to embed the video into the document which now works.
+
+##Credits
+
+All of the code used in this project is my own apart from this iframe snippet:   <iframe width="500" height="300" 
+    src="https://www.youtube.com/embed/l25MBq8T77w"
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+-While i have been mostly absent these past few months due to a personal loss. I would like to thank my cohort leader for helping me when I needed it. On my next project I will be sure to use all of the resources available to me and improve my coding skills.
+   
 
