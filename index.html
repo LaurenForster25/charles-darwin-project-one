@@ -122,18 +122,25 @@
 <!--finish action value for form-->
 <h3>Sign up to our Everyday Evolution Newsletter Below:</h3>
 <form action="" method="POST">
- <label for="name">Full Name</label>
- <input id="name" type="text" name="full_name">
+ <label for="name">Full Name:</label>
+ <input id="name" type="text" name="full_name"/>
  <br/>
- <label for="email">Email</label>
- <input id="email" type="email" name="user_email">
+ <label for="email">Email:</label>
+ <input id="email" type="email" name="user_email"/>
  <br/>
- <label for="number">Phone Number</label>
- <input id="number" type="tel" name="phone_number">
+ <label for="number">Phone Number:</label>
+ <input id="number" type="tel" name="phone_number"/>
  <br/>
- <!--notifications-->
- 
-
+ <label for="recieve-notifs">Recieve Notifications:</label>
+   <select id="recieve-notifs" name="recieve_notifs">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+    <option value="email-only">Email only</option>
+    <option value="sms-only">SMS only</option>
+   </select>
+   <br/>
+ <input type="reset" value="Reset Details"/>
+ <button type="submit"> <strong>Sign up</strong> </button>
 
 </form>
 
