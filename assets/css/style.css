@@ -74,6 +74,17 @@ height:auto;
 
 #beagle {background-color: white;
    padding:10px;
+
+}
+
+#finches {background-color:white;
+   border-width:3px;
+   border-style:double;
+   border-color:midnightblue;
+   font-family:'sans-serif', 'Times New Roman';
+    font-size:large;
+    text-align:center;
+
 }
 
 #further-links {background-color:rgb(117, 160, 193);
