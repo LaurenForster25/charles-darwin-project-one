@@ -1,14 +1,30 @@
+/*Asterix wildcard to override browser styles*/
 *{
    padding:10px;
    margin:10px;
-   box-sizing: border-box;
+   
 }
 
-body {font-family:'sans-serif', times-new-roman;
+/*General Styles*/
+
+body {background-color:rgb(117, 154, 178)
 }
 
-h3 {background-color: cornflowerblue;
-   color:black}
+h3 {color:black;
+    font-family:'sans-serif', times-new-roman;
+    font-size:large
+}
+
+p {color:black;
+   font-family:'sans-serif', times-new-roman;
+   font: size 80%;
+}
+
+h3 {
+   border-width:3px;
+   border-style:double;
+   border-color:midnightblue
+}
 
 
 /*padding*/
