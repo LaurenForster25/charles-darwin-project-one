@@ -7,7 +7,11 @@
 
 /*General Styles*/
 
-header {background-color:white;
+header {background-color:rgb(117, 160, 193);
+}
+header p{color:black;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align:center
 }
 
 footer {background-color: black;
@@ -23,12 +27,12 @@ body {background-color: rgb(118, 195, 195);
 
 
 h3 {color:black;
-    font-family:'sans-serif', times-new-roman;
+    font-family:'sans-serif', 'Times New Roman';
     font-size:large
 }
 
 p {color:black;
-   font-family:'sans-serif', times-new-roman;
+   font-family:'sans-serif', 'Times New Roman';
    font: size 80%;
 }
 
