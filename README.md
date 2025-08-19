@@ -21,7 +21,7 @@ Historical Overview
   
 Darwin's Years of Travel
   - This paragraph provides information on the places he visited while on his voyage, as well as higlighting key discoveries on his travels.
-  - These are vital pieces of information because they link Charles Darwin as a ordinary man, to the success he had with his theory of evolution. It highlights the two main targets of the website coming together.
+     - These are vital pieces of information because they link Charles Darwin as a ordinary man, to the success he had with his theory of evolution. It highlights the two main targets of the website coming together.
   - There is an image of the route the HMS Beagle took during the time it was sailing.
      - This imagine provides a visual aid to users reading about the journey.
 
@@ -50,7 +50,7 @@ Newsletter
    - This adds an extra layer of user intercativity to the website.
 
 Footer
-   -The footer contains a Copyright note. As this is a historical website and not a wesbite encourgaing the use of a product, I have not included social media links.
+   - The footer contains a Copyright note. As this is a historical website and not a wesbite encourgaing the use of a product, I have not included social media links.
 
 
 
