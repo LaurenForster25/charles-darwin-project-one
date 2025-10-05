@@ -1,3 +1,18 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Forum&display=swap');
+
+.forum-regular {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*Asterix wildcard to override browser styles*/
 *{
    padding:0;
