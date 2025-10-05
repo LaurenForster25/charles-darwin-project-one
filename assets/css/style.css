@@ -1,5 +1,7 @@
 /*Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Forum&display=swap');
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Anton&family=Forum&display=swap');
 
 .forum-regular {
   font-family: "Forum", serif;
@@ -11,7 +13,7 @@
   font-family: "Anton", sans-serif;
   font-weight: 300;
   font-style: normal;
-}
+}*/
 
 /*Asterix wildcard to override browser styles*/
 *{
