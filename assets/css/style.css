@@ -10,10 +10,12 @@
 /*Header*/
 
 header {
+   background-color: darkslateblue;
    padding:0 1rem;
    position: fixed;
    z-index: 99;
    width:100%;
+   box-shadow: 0 3px 2px 
 }
 
 header a {text-decoration: none;
