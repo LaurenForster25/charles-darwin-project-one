@@ -9,7 +9,7 @@
 
 .anton-regular {
   font-family: "Anton", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -28,7 +28,7 @@ body {
    display: flex;
    flex-direction: column;
    color:black;
-   font-family: 'Forum', sans-serif;
+   font-family: sans-serif;
 
 }
 
@@ -41,7 +41,7 @@ header {
    z-index: 99;
    width:100%;
    box-shadow: 0 3px 2px;
-   font-family: sans-serif;
+   font-family: 'Anton', sans-serif;
 }
 
 header a {text-decoration: none;
