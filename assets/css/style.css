@@ -34,7 +34,10 @@ header a {text-decoration: none;
 
 /*Main Content*/
 
-body {background-color:lightgoldenrodyellow;}
+body {background-color:lightgoldenrodyellow;
+   flex: 1 0 auto;
+
+}
 
 
 
