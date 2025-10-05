@@ -3,7 +3,7 @@
 
 .forum-regular {
   font-family: "Forum", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -40,7 +40,8 @@ header {
    position: fixed;
    z-index: 99;
    width:100%;
-   box-shadow: 0 3px 2px 
+   box-shadow: 0 3px 2px;
+   font-family: 'Anton', sans-serif;
 }
 
 header a {text-decoration: none;
