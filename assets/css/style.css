@@ -10,7 +10,7 @@
 /*Header*/
 
 header {
-   background-color: darkslateblue;
+   background-color:lightsteelblue;
    padding:0 1rem;
    position: fixed;
    z-index: 99;
@@ -25,9 +25,13 @@ header a {text-decoration: none;
 
 /*Main Content*/
 
+body {background-color:lightgoldenrodyellow;}
+
 
 
 /*Footer*/
+
+footer {background-color:lightsteelblue;}
 
 
 /*
