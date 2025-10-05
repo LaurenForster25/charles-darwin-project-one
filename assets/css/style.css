@@ -11,7 +11,10 @@ header {background-color:rgb(117, 160, 193);
    border-width:3px;
    border-style:double;
    border-color:midnightblue;
-   margin:10px
+   margin:10px;
+   z-index: 99;
+   width: 100%;
+   position: fixed;
 }
 
 header {color:black;
