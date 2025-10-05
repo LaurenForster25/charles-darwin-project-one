@@ -45,7 +45,7 @@ body {
    display: flex;
    flex-direction: column;
    color:black;
-   font-family: sans-serif;
+   font-family: 'Spectral', sans-serif;
 
 }
 
@@ -58,7 +58,7 @@ header {
    z-index: 99;
    width:100%;
    box-shadow: 0 3px 2px;
-   font-family: 'Anton', sans-serif;
+   font-family: 'DM Serif Text', sans-serif;
 }
 
 header a {text-decoration: none;
