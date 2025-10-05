@@ -8,12 +8,10 @@
 /*General Styles*/
 
 header {background-color:rgb(117, 160, 193);
-   border-style:double;
-   border-color:midnightblue;
-   margin:10px;
+   padding:0 1rem;
    position: fixed;
-   width: 100%;
    z-index: 99;
+   width:100%;
 }
 
 header {color:black;
