@@ -94,9 +94,14 @@ body {min-height: 100vh;
 
 h3 {text-align: center;
 margin-top: 20px;
-margin-bottom: 20px;}
+margin-bottom: 20px;
+border-style: double;}
 
 p {text-align: center;}
+
+#finches {margin-top: 20px;
+align-items: center;
+}
 
 #newsletter {text-align: center;}
 
