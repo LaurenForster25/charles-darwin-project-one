@@ -104,7 +104,8 @@ p {text-align: center;}
 
 /*Footer*/
 
-footer {background-color:lightsteelblue;}
+footer {background-color:lightsteelblue;
+margin-top: 10px;}
 
 @media screen and (min-width: 992px) {
    #menu a:hover{
