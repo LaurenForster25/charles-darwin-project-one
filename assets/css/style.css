@@ -115,6 +115,13 @@ iframe {
   margin-left: auto;
   margin-right: auto;}
 
+.list {
+  width: fit-content;     
+  margin-left: auto;
+  margin-right: auto;
+  list-style:none;
+  text-align: center;
+}
 
 #newsletter {text-align: center;}
 
