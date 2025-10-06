@@ -99,9 +99,11 @@ border-style: double;}
 
 p {text-align: center;}
 
-#finches {margin-top: 20px;
+#finches 
+
+/*{margin-top: 20px;
    text-align: center;
-}
+}*/
 
 
 #newsletter {text-align: center;}
