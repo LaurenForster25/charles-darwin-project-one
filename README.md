@@ -8,7 +8,10 @@ This site will be useful for people looking to find out about the key stages of 
 Navigation Bar
   - The fully responsive navigation bar provides links for each page of the website and is located on every page. The nav bar is accessible to the user throughout each web page as they scroll down. 
      - This allows users to travel quickly to anywhere on the site and helps them navigate to a particular piece of information quickly instead of having to scroll up and down multiple times.
-
+Footer
+   - The footer contains a Copyright note. As this is a historical website and not a wesbite encourgaing the use of a product, I have not included social media links.
+      - The footer is included in all of the pages of the website which creates a more uniform design.
+     
 ### First Page
 
 Introduction and Starting Image
@@ -57,18 +60,17 @@ Further Research Suggestions
   
 Newsletter
   - There is a chance for users to sign up to the 'Everyday Evolution' Newsletter if they so wish.The form allows users to enter data into the fields and submit the form.
-   - This adds an extra layer of user intercativity to the website.
+    - This adds an extra layer of user intercativity to the website.
 
-Footer
-   - The footer contains a Copyright note. As this is a historical website and not a wesbite encourgaing the use of a product, I have not included social media links.
 
-##Features to Implement 
-  -  It would be a good idea to include another page where users can have a brief introduction to what the Newsletter looks like as well as the information on there.
-  -  Background image would make the site look more professional
+
+##Features to Implement in the Future
+  - It would be a good idea to add in a background image on the third page of the website to bring some more vibrance to the design and increase user interactivity. This would also be a great way to encourage more people to sign up to the newsletter and would provide users with a visual aid rather than just the text.
+  - More images could be used to increase the complexity of the design as oppose to just having blocks of colour.
 
 Testing
  - While I have run rigarous testing through my vscode I have not been able to access the Valdiator Testing sites provided by Code Institute. The sites do not accept my url.
- - Here is my deployed site: https://laurenforster25.github.io/charles-darwin-project-one/
+    - Here is my deployed site: https://laurenforster25.github.io/charles-darwin-project-one/
 
 Fixing Bugs
   -The first bug I fixed was connecting my CSS in the HTML file. I had not included the entire file path to the style.css folder and that had prevented my file from connecting.
