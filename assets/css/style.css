@@ -100,7 +100,7 @@ border-style: double;}
 p {text-align: center;}
 
 #finches {margin-top: 20px;
-align-items: center;
+   text-align: center;
 }
 
 #newsletter {text-align: center;}
