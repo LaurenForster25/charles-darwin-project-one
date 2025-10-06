@@ -3,6 +3,8 @@ In this website, there is a rich timeline of Charles Darwin's history. The site 
 The site is targeted towards people of all ages, who have taken a particular interest in biology and it's history, whether that be for studying purposes or simply to educate themselves later in life. 
 This site will be useful for people looking to find out about the key stages of his life in specific regards to his work as a naturalist. It will also be useful to those wanting to understand the origins of the theory of evolution and the process that Darwin went through to become a successful theorist and publisher.
 
+![Website preview and responsive design](assets/css/images/website-design-responsiveness.png)
+
 ## Features
 
 Navigation Bar
@@ -54,6 +56,8 @@ Links to Other Sites
 
 ### Third Page
 
+![Newsletter page](assets/css/images/newsletter-page.png)
+
 Further Research Suggestions
   - This section provides the names of other important figures in the history of evolutionary thought.
     - This allows the user to explore beyond the life of Charles Darwin and branch off further into the history of biology.
@@ -62,14 +66,18 @@ Newsletter
   - There is a chance for users to sign up to the 'Everyday Evolution' Newsletter if they so wish.The form allows users to enter data into the fields and submit the form.
     - This adds an extra layer of user intercativity to the website.
 
-
-
 ## Features to Implement in the Future
   - It would be a good idea to add in a background image on the third page of the website to bring some more vibrance to the design and increase user interactivity. This would also be a great way to encourage more people to sign up to the newsletter and would provide users with a visual aid rather than just the text.
   - More images could be used to increase the complexity of the design as oppose to just having blocks of colour.
 
 ## Testing
+![Running website through HTML validator-one error](assets/css/images/html-validator-testing-error.png)
+To fix this error I simply went back into vscode and changed the "IE-edge" to the correct "IE=edge".
+![HTML Validator Pass](assets/css/images/html-validator-testing-pass.png)
 
+![CSS Validator Pass](assets/css/images/css-validator-testing-pass.png)
+### Using Lighthouse Metrics to measure the accessibility of the website
+![Website Accessibility](assets/css/images/website-accessibility.png)
 
 ### Interesting bugs that have been fixed
 
