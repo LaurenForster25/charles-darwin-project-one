@@ -62,39 +62,16 @@ header a {text-decoration: none;
 
 }
 
-/*#menu {display: flex;
+#menu {display: flex;
    position: sticky;
    align-items: center;
    list-style-type: none;
    justify-content: space-between;
    font-size:110%;
    text-transform:initial;
-   letter-spacing: 0px;*/
-   
-
-#menu {display: flex;
-            position: sticky;
-            align-items: center;
-            justify-content: space-between;
-            top: 0px;
-            background-size: cover;
-            padding: 10px 20px;
-
+   letter-spacing: 0px;
 }
-
-.navbar {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-list li {
-            margin-right: 20px;
-        }
-
-        .nav-list li:last-child {
-            margin-right: 0;
-        }
-
+   
 /*Main Content*/
 
 
