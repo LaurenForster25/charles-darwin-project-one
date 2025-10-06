@@ -64,26 +64,71 @@ Newsletter
 
 
 
-##Features to Implement in the Future
+## Features to Implement in the Future
   - It would be a good idea to add in a background image on the third page of the website to bring some more vibrance to the design and increase user interactivity. This would also be a great way to encourage more people to sign up to the newsletter and would provide users with a visual aid rather than just the text.
   - More images could be used to increase the complexity of the design as oppose to just having blocks of colour.
 
-Testing
- - While I have run rigarous testing through my vscode I have not been able to access the Valdiator Testing sites provided by Code Institute. The sites do not accept my url.
-    - Here is my deployed site: https://laurenforster25.github.io/charles-darwin-project-one/
+## Testing
 
-Fixing Bugs
-  -The first bug I fixed was connecting my CSS in the HTML file. I had not included the entire file path to the style.css folder and that had prevented my file from connecting.
-  -The next vital bug that occured in my code was when I used the video element. I could not get the code to work and I came to the conlusion that youtube itself would not load in the browser. In the end I used an iframe to embed the video into the document which now works.
 
-##Credits
+### Interesting bugs that have been fixed
 
-All of the code used in this project is my own apart from this iframe snippet:   <iframe width="500" height="300" 
+ - Throughout the website design, I have coded a lot of navigation links. At the start of the project I only had one page for the enitre site and decided to create a nav bar that linked to each paragraph on the page. When I first created these links not all of them would send me to another part of the page, after looking at the code I realised that I had not added the hashtag symbol to all of the link values.
+ - Later on in the website design I had created three pages containing different content for the site. Therefore the navigation bars had to be adjusted. Instead of having seven navigation links to each paragraph I created three links, one for each page. At first these links would not take me to the different parts of the site when I opened them up in the browser and I could not figure out the problem  by simply looking at the code. I searched the problem on Google and found that I had kept the hashtag symbols in for the new values, when hashtags are only used for links on the same page as opposed to a different page entirely.
+
+  - The biggest problem I had whilst incorporating images and videos into the site was getting the video to play in the website. At first I used the video element but this was unsuccessful. After a lot of tinkering to the code I realised that the problem wasn't the code itself but that the video link was not compatible with the element that I was using. I then used ChatGPT to figure out the solution by having it directly look at my code and it provided a solution for me using an iframe element. The iframe embedded the video into the document and it played successfully. This was first piece of code that I had not created myself within the website.
+  - I also came across an issue when trying to transfer the HMS Beagle Voyage image into the new website layout. It would not fit down to the size of the site and I used extensive elements in CSS to try and fix this issue, including width percentage, margin adjustments and even adding padding. After many attempts I decided to use ChatGPT again as this tool was the most useful to me when I had an issue with the youtube video. It gave me a solution that combined the elements max-width, height, display, margin-left and margin-right. Whilst also suggesting that I use the '#beagle img' instead of just '#beagle' to address the image in my css code.
+
+## Deployment 
+
+ - In order to deploy the website on GitHub, I followed the steps below:
+ 1. In the GitHub repository, I navigated towards the settings icon on the top right corner of the page.
+ 2. From there, I selected 'Pages' from the left-hand side bar.
+ 3. I ensured that the source was set to 'Deploy from Branch', the Main branch was selected and that the folder was set to Root.
+ 4. I then clicked save and waited for the wesbite to be deployed.
+ 5. GitHub then provided me with a URL for the newly deployed website.
+-Here is my deployed site: https://laurenforster25.github.io/charles-darwin-project-one/
+
+
+
+
+
+
+
+## Credits
+
+### Code that is not my own  
+All of the code used in this project is my own apart from the following code snippets:    
+
+- This iframe element which was found on ChatGPT and allowed me to embed a video file into the website.
+<iframe width="500" height="300" 
     src="https://www.youtube.com/embed/l25MBq8T77w"
     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
 </iframe>
 
--While i have been mostly absent these past few months due to a personal loss. I would like to thank my cohort leader for helping me when I needed it. On my next project I will be sure to use all of the resources available to me and improve my coding skills.
+- This css code that helped me adjust the size and positioning of the HMS Beagle Voyage image. This was also found on ChatGPT.
+
+#beagle img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;}
+
+### Content 
+I created all of the content included in the website, but the information I used was taken from the following open source sites:
+* https://www.bbc.co.uk/teach/articles/z7rvxyc
+* https://www.britannica.com/biography/Charles-Darwin
+* https://www.metropolitan-touring.com/blog/culture/darwin-day-5-fascinating-facts/
+
+I also linked the following pages in my website that users can reach for further information:
+* https://www.darwinfoundation.org/en/
+* https://darwin-online.org.uk/
+
+### Study Support 
+
+-While I have not been overly communicative during this time due to a personal loss. I would like to thank my cohort leader and the student care team for giving me all the guidance I asked for when completing this project. On my next project I will be sure to use all of the resources available to me and improve my coding skills.
    
 
