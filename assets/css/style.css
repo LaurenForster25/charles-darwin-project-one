@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Spectral:wght@400;500&display=swap');
 
+/*
 .dm-serif-text-regular {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
@@ -13,8 +14,7 @@
   font-weight: 500;
   font-style: normal;
 }
-
-
+*/
 
 /*@import url('https://fonts.googleapis.com/css2?family=Anton&family=Forum&display=swap');
 
@@ -40,25 +40,18 @@
 
 /*General Styles*/
 
-body {
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   color:black;
-   font-family: 'Spectral', sans-serif;
-
-}
 
 /*Header*/
 
 header {
    background-color:lightsteelblue;
-   padding:0 1rem;
+   padding: 0 1rem;
    position: fixed;
    z-index: 99;
    width:100%;
    box-shadow: 0 3px 2px;
    font-family: 'DM Serif Text', sans-serif;
+
 }
 
 header a {text-decoration: none;
@@ -66,9 +59,20 @@ header a {text-decoration: none;
 
 }
 
+#menu {font-size:110%;
+   letter-spacing: 4px;
+
+}
+
 /*Main Content*/
 
-body {background-color:lightgoldenrodyellow;
+
+body {min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   color:black;
+   font-family: 'Spectral', sans-serif;
+   background-color:lightgoldenrodyellow;
    flex: 1 0 auto;
 
 }
