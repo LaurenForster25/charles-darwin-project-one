@@ -62,10 +62,11 @@ header a {text-decoration: none;
 }
 
 main a {text-decoration:underline;
-   color:inherit
+   color:inherit;
+
 }
 
-
+main {margin-top: 110px;}
 
 #menu {display: flex;
    position: sticky;
