@@ -53,6 +53,7 @@ header {
    font-family: 'DM Serif Text', sans-serif;
    text-transform: uppercase;
    letter-spacing: 2px;
+   align-items: center;
 
 }
 
@@ -61,7 +62,10 @@ header a {text-decoration: none;
 
 }
 
-#menu {font-size:110%;
+#menu {display: flex;
+   list-style: none;
+   justify-content: space-between;
+   font-size:110%;
    text-transform:initial;
    letter-spacing: 0px;
 
